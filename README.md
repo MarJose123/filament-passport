@@ -19,12 +19,7 @@ You can install the package via composer:
 composer require marjose123/filament-passport
 ```
 
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --tag="filament-passport-migrations"
-php artisan migrate
-```
+follow setup instruction on the https://laravel.com/docs/10.x/passport
 
 You can publish the config file with:
 
