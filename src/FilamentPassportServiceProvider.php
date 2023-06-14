@@ -1,13 +1,13 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace MarJose123\FilamentPassport;
 
 use Filament\PluginServiceProvider;
 use Spatie\LaravelPackageTools\Package;
 
-class SkeletonServiceProvider extends PluginServiceProvider
+class FilamentPassportServiceProvider extends PluginServiceProvider
 {
-    public static string $name = 'skeleton';
+    public static string $name = 'filament-passport';
 
     protected array $resources = [
         // CustomResource::class,
@@ -22,15 +22,15 @@ class SkeletonServiceProvider extends PluginServiceProvider
     ];
 
     protected array $styles = [
-        'plugin-skeleton' => __DIR__.'/../resources/dist/skeleton.css',
+        'plugin-filament-passport' => __DIR__.'/../resources/dist/filament-passport.css',
     ];
 
     protected array $scripts = [
-        'plugin-skeleton' => __DIR__.'/../resources/dist/skeleton.js',
+        'plugin-filament-passport' => __DIR__.'/../resources/dist/filament-passport.js',
     ];
 
     // protected array $beforeCoreScripts = [
-    //     'plugin-skeleton' => __DIR__ . '/../resources/dist/skeleton.js',
+    //     'plugin-filament-passport' => __DIR__ . '/../resources/dist/filament-passport.js',
     // ];
 
     public function configurePackage(Package $package): void
